@@ -1,0 +1,762 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+.main{
+     width: 100%; 
+     height: 100%; 
+    background-color: chocolate;
+    background-image: url(https://in.ajmalperfume.com/cdn/shop/files/Premium-Collection1.jpg?v=1719818604);
+    /* background-image: url(https://img.freepik.com/premium-photo/luxurious-cosmetic-packaging-arranged-o-stair-scene-concept-creative-design-luxury-elegant_655090-473864.jpg?w=826); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* border-radius: 100px; */
+}
+.nav{
+   min-width: 80vw;
+   min-height:10vh ;
+   /* background-color: aqua; */
+   background-color: rgb(53, 1, 37);
+   display: flex;
+   position: sticky;
+   justify-content: space-between;
+   align-items: center;
+}
+.name{
+    min-width:20vw;
+    /* background-color: rgb(228, 134, 134); */
+    min-height:10vh;
+    /* background-color: aquamarine; */
+    display: flex;
+    text-align: center;
+
+}
+.name img{
+    width: 150px;
+    height: 100px;
+}
+.name h2{
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: "Kalnia", serif;
+  text-align: center;
+  margin-left: 20px;
+  margin-top: 10px;
+  color: aliceblue;
+  
+  /* font-weight: <weight>; */
+}
+    /* min-height: inherit; */
+.main3{
+   min-width:35vw;
+   min-height: 10vh;
+   display: flex;
+   /* background-color: blueviolet; */
+
+}
+ ul{
+    list-style: none;
+} 
+ul li{
+    display: inline-block;
+    /* justify-content: space-between; */
+    list-style: none;
+    margin-top: 20px;
+    font-weight: 500;
+}
+ ul li a{
+   /* position: relative; */
+    padding:0px 30px;
+    color: rgb(228, 218, 218);
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 0px 20px;
+    text-transform: capitalize;
+    /* transition: all 0.5 ease; */
+    display: block;
+   /* border-bottom: 2px solid black; */
+    transition: 0.3s;
+   /* transition-timing-function: ease-in-out; */
+   /* transform: scalex(0); */
+   
+
+}
+
+
+.main3 ul li a:hover::after{
+   color: rgb(233, 84, 233);
+   /* width: 100%; */
+    /* border-bottom: 1px solid black; 
+    transform: scalex(1); */
+   
+}
+.nav i{
+    color: aliceblue;
+    padding:  20px;
+    margin-top: 10px;
+}
+.nav h3{
+    color: aliceblue;
+    margin-top: 10px;
+    padding-right: 20px;
+}
+.btn1{
+
+    margin-top: 10px; 
+    height: 5vh;
+    width: 10vw;
+    /* position: absolute; */
+    background-color: black;
+    /* padding: 0rem 1rem; */
+
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    border: none;
+    font-size: 2,5vh;
+    display: flex;
+    transition: all 0.5 ease;
+   
+}
+.btn2{
+
+   height: 7vh;
+   width: 15vw;
+   /* position: absolute; */
+ 
+
+   align-items: center;
+   justify-content: center;
+   color: aliceblue;
+   border-color: white;
+   font-size: 4vh;
+   background: none;
+   display: flex;
+   transition: all 0.5 ease;
+}
+.cantent{
+    padding: 100px 40px;
+
+}
+
+.search input{
+    width: 25%;
+    height: 30px;
+    border-radius: 20px;
+    color: rgb(12, 10, 10);
+    border: none;
+
+}
+.text{
+    /* width: 40%; */
+
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+color: rgb(136, 5, 70);
+}
+.text  p{
+    /* text-align: center; */
+    padding: 20px;
+    color: rgb(82, 2, 51);
+}
+.shop{
+ /* padding: 90px; */
+ margin-top: 40px;
+ display: flex;
+
+}
+.shop h4{
+    text-transform: uppercase;
+    color: crimson;
+    padding: 10px 30px;
+    font-size: 20px;
+}
+.top{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* background-color: aqua; */
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.main2{
+    /* background-color: aqua; */
+    width: 100%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.box1{
+    width: 40vw;
+    height: 65vh;
+    padding: 10px 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box1 img{
+    width: 22vw;
+    height: 65vh;
+}
+.box1 h2{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+/* .scroll{
+    width: 100%;
+    height: 10%;
+    background-color: black;
+} */
+.page2{
+    height: 10%;
+    width: 100%; 
+} 
+/* .main{
+    width: 100%;
+    height: 100%;
+    background-color: brown;
+} */
+/* psudu elment. use with the help of  css write  text in css */
+
+.scroller{
+    /* background-color: cadetblue; */
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+.scroller::-webkit-scrollbar{
+    display: none;
+}
+.scroller-in{
+    display: inline-block;
+    white-space: nowrap;
+    animation-name: scroll;
+    animation-duration: 20s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+
+.scroller h4{
+    text-transform: lowercase;
+    display: inline-block;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    margin-right: 10px;
+-webkit-text-stroke: 2px rgba(247, 72, 153, 0.671);
+color: transparent;
+transition: all linear 0.5s;
+
+}
+.scroller h4:hover{
+color: brown;
+
+}
+@keyframes scroll{
+from{
+    transform: translateY(0);
+
+}
+to{
+    transform: translateX(-100%);
+}
+
+}
+.feature{
+    width: 100%;
+    height: 10%;
+    padding: 10px 30px;
+    /* background-color: aqua; */
+}
+.feature span{
+    color: rgb(161, 32, 133);
+    
+}
+
+.products{
+    width: 100%;
+    height: 50%;
+    /* background-color: aquamarine; */
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-evenly;
+
+}
+.bottel{
+    width: 16vw;
+    height: 45vh;
+    /* background-color: blue; */
+    text-align: center;
+    line-height: 20px;
+
+}
+.bottel img{
+    width: 80%;
+    height: 70%;
+    margin-left: 25px;
+}
+.add{
+    width: 7vw;
+    height: 4vh;
+    border: none;
+    background-color: rgb(226, 99, 125);
+    font-weight: 700;
+    color: black;
+
+}
+
+.main4{
+    width: 100%;
+    height: 60%;
+    display: flex;
+}
+.photo1{
+    width: 50%;
+    background-color: black;
+    background-image: url(https://plus.unsplash.com/premium_photo-1661341484125-83836fb6093e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cGVyZnVtZSUyMHBob3RvZ3JhcGh5fGVufDB8fDB8fHww);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.best1{
+    width: 50%;
+    /* background-color: aquamarine; */
+    text-align: center;
+    line-height: 40px;
+}
+.best1 h6{
+margin-top: 50px;
+}
+.main5{
+    width: 100%;
+    height: 60%;
+    display: flex;
+}
+/* .best2{
+    width: 50%;
+    background-color: rgb(27, 235, 165);
+    text-align: center;
+} */
+.photo2{
+    width: 50%;
+    background-color: rgb(182, 39, 39);
+    background-image:url(https://images.unsplash.com/photo-1676902005584-54c949f934a9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEwfHx8ZW58MHx8fHx8);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.arrivals{
+    width: 100%;
+    height: 80%;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-image: url(https://images.unsplash.com/photo-1518249877183-07492abe7f7b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8aGlsbCUyMHN0YXRpb258ZW58MHx8MHx8fDA%3D);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#cards{
+    width: 20vw;
+    height: 70vh;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 25px;
+
+}
+.cart{
+    margin-top: 20px; 
+    height: 5vh;
+    width: 10vw;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    color: aliceblue;
+    font-size: 2vh;
+    /* margin-left: 14px; */
+   
+}
+
+
+#cards img{
+    width: 20vw;
+    height: 40vh;
+    margin-top: 10px;
+}
+.cards p{
+    margin-top: 10px;
+}
+.new{
+    width: 100%;
+    height: 20%;
+    font-size: 30px;
+    /* background-color: rgb(163, 222, 135); */
+    display: flex;
+    /* text-align: center; */
+    /* align-items: center; */
+    justify-content: center; 
+}
+.new h1{
+    margin-top: 30px;
+    /* font-size: 20px; */
+}
+.new h6{
+    margin-top: 10px;
+}
+.play{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    /* justify-content: center; */
+    margin-top: 20px;
+}
+.late{
+    width: 50%;
+    height: 80%;
+    margin-left: 65%;
+    /* background-color: aqua; */
+    text-align: center;
+    
+    
+}
+.late h1{
+font-size: 40px;
+margin-top: 60px;
+}
+.late span {
+    color: black;
+}
+.late p{
+    margin-top: 20px;
+    color: crimson;
+}
+.late h3{
+    margin-top: 30px;
+    padding: 10px 10px;
+}
+.late h4{
+    padding:  10px;
+}
+video{
+    width: 70%;
+    height: 60%;
+    margin-top: 30px;
+    position: absolute;
+    z-index: -1;
+
+}
+.now{
+    width: 10vw;
+    height: 5vh;
+    border: none;
+    background-color: rgb(226, 99, 125);
+    font-weight: 700;
+    color: black;
+
+}
+.btn3{
+
+    height: 6vh;
+    width: 12vw;
+    /* position: absolute; */
+
+    align-items: center;
+    justify-content: center;
+    color: rgb(72, 4, 78);
+    border-color: rgb(112, 4, 80);
+    border-radius: 20px;
+    font-size: 3vh;
+    background: none;
+    /* border: none; */
+    display: flex;
+    transition: all 0.5 ease;
+    margin-left: 35%;
+    margin-top: 30px;
+    /* padding: 40px; */
+    
+ }
+ .subscribe{
+font-size: 15px;
+margin-bottom: 40px;
+display: grid;
+ }
+ .subscribe input{
+
+    /* margin-top: 20px; */
+    height: 30px;
+
+    
+ }
+ .bodymist{
+    width: 90%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aquamarine; */
+border-radius: 20px;
+margin-left: 60px;
+font-size: 25px;
+background-image: url(https://media.istockphoto.com/id/1300459032/photo/herbal-skincare-cosmetics-set-and-eucalyptus-leaves-on-green-background-amber-glass-body.jpg?s=612x612&w=0&k=20&c=vjAguJrEmLL-BOyoGfzdiZ5urpDr2OM981NCLzGH1lM=);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+ }
+ .bodymist h1{
+    color: rgb(33, 160, 177);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+
+ }
+ .nist{
+    width: 100%;
+    height: 75%;
+    /* background-color: aqua; */
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+ }
+
+ #mist{
+    width: 20vw;
+    height: 60vh;
+    /* background-color: rgb(209, 80, 80); */
+    
+border-radius: 20px;
+    text-align: center;
+
+    
+
+ }
+ #mist h6{
+    margin-top: 30px;
+ }
+ #mist h3{
+ padding: 10px 10px;
+ }
+ #mist h5{
+    padding: 10px 10px;
+ }
+ .body{
+    width: 15vw;
+    height: 30vh;
+ }
+ .buy{
+    width: 80px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: rgb(204, 116, 53);
+    color: black;
+    border: none;
+ }
+ .collection{
+    width: 100%;
+    height: 100%;
+    background-color: brown;
+    padding: 20px 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(207, 192, 192);
+    display: flex;
+
+ }
+ .Everything{
+    width: 50%;
+    height:100% ;
+    /* background-color: aquamarine; */
+
+ }
+ .collection h1{
+    text-align: center;
+ }
+ .collection h5 {
+font-size: 20px;
+margin-top: 20px;
+ }
+ .collection p{
+    font-size: 40px;
+    margin-top: 40px;
+    font-weight: 600;
+
+ }
+ .rating{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 20%;
+    gap: 20px;
+    text-align: center;
+    background-color: rgb(233, 143, 143);
+    border: 2px black;
+    margin-left: 45%;
+ }
+.img{
+    width: 80px;
+    height: 70px;
+    padding: 20px;
+    margin-top: 30px;
+ }
+ .varity{
+    width: 50%;
+    height: 100%;
+    /* background-color: aqua; */
+    margin-left: 50px;
+    position: relative;
+ }
+ .rose{
+    width: 30%;
+    height: 30%;
+    background-color: black;
+    position: absolute;
+    padding: 20px 20px;
+    margin-top: 100px;
+    margin-left: 30px;
+ }
+ .wood{
+    width: 30%;
+    height: 30%;
+    /* background-color: rgb(39, 163, 66); */
+    position: absolute;
+    margin-left:60px ;
+    margin-top: 50px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSolsGj9ZAiBeYErjIpugvIrxXN7QMb0D0XWw&s);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+ .varity h1{
+    margin-top: 50px;
+    margin-left: 100px;
+    /* position: absolute; */
+ }
+ .varity h3{
+        margin-top: 40px;
+        margin-left:50%;
+        font-size: 25px;
+        /* position: absolute; */
+ }
+ .See{
+    width: 80px;
+    height: 40px;
+    background-color: black;
+    text-align: center;
+    color: aliceblue;
+    margin-left: 50%;
+    margin-top: 8%;
+ }
+ .bottom{
+    width: 100%;
+    height: 40%;
+    /* background-color: blue; */
+    margin-top: 10%;
+ }
+ .rose1{
+    width: 30%;
+    height: 30%;
+    background-color: black;
+    position: absolute;
+    padding: 20px 20px;
+    margin-top: 100px;
+    margin-left: 50%;
+ }
+ .wood1{
+    width: 30%;
+    height: 30%;
+    /* background-color: rgb(39, 163, 66); */
+    position: absolute;
+    margin-left:60%;
+    margin-top: 50px;
+    background-image: url(https://img.freepik.com/free-photo/3d-rendering-perfume-with-flowers_23-2150850885.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+ .varity h2{
+    margin-top: 20px;
+    position: absolute;
+    margin-left: 10%;
+    font-size: 30px;
+ }
+ .varity h4{
+        margin-top: 15%;
+        margin-left:10%;
+        font-size: 25px;
+        position: absolute;
+ }
+ .more{
+    width: 80px;
+    height: 40px;
+    background-color: black;
+    text-align: center;
+    color: aliceblue;
+    margin-left: 10%;
+    margin-top: 25%;
+    position: absolute;
+ }
+ .footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 40%;
+    color: aliceblue;
+    background-color: rgb(15, 15, 15);
+    margin-top: 50px;
+ }
+ .Lorem{
+    width: 30%;
+    text-align: center;
+ }
+.Lorem i{
+    padding: 20px 20px;
+    font-size: 20px;
+}
+ .links{
+    line-height: 34px;
+ }
+
+ .links a{
+    text-decoration: none;
+    display: block;
+    /* margin-top: 10%; */
+    color: aliceblue;
+
+}
+.information{
+    line-height: 34px;
+}
+.subscribe{
+    line-height: 50px;
+}
+.footer2{
+    width: 100%;
+    height: 10%;
+    background-color: rgb(15, 15, 15) ;
+    display: flex;
+    color: aliceblue;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+
